@@ -130,10 +130,10 @@ async def main():
  ▀██████▀    ███    █▀   ▀█   █▀  █▀    ▄████████▀    ███    █▀    
                                                                    
                                           """, 1))
-                Write.Print(f"Connected to {information['json']['username']}\n", Colors.red_to_orange, interval=0.025)
-                Write.Print(f"Connected to {len(bot_guilds)} servers\n", Colors.orange_to_yellow, interval=0.025)
-                Write.Print(f"Admin in {len(admin_servers)} servers\n", Colors.yellow_to_green, interval=0.025)
-                Write.Print(f"Made by Nepoznat, Rust || Modified by Zenith\n", Colors.green_to_blue, interval=0.025)
+                Write.Print(f"Connected to {information['json']['username']}\n", Colors.purple_to_red, interval=0.025)
+                Write.Print(f"Connected to {len(bot_guilds)} servers\n", Colors.purple_to_red interval=0.025)
+                Write.Print(f"Admin in {len(admin_servers)} servers\n", Colors.purple_to_red, interval=0.025)
+                Write.Print(f"Made by Nepoznat, Rust || Modified by Zenith\n", Colors.purple_to_red, interval=0.025)
                 print(f"{Colors.yellow}[{'='*50}]{Colors.orange} > {Colors.light_blue}Bot Servers {Colors.orange}< {Colors.yellow}[{'='*50}]{Colors.reset}\n")
 
                 for guild in bot_guilds:
